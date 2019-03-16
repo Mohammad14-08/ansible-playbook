@@ -1,0 +1,14 @@
+---
+- name: install httpd
+  hosts: all
+  tasks: 
+
+    - name: installing httpd
+      yum: 
+
+
+       name: installing httpd server in all nodes
+       state: present
+
+
+...       
